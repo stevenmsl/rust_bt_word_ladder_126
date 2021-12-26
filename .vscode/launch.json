@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rust_bt_word_ladder_126'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rust_bt_word_ladder_126",
+                    "--package=rust_bt_word_ladder_126"
+                ],
+                "filter": {
+                    "name": "rust_bt_word_ladder_126",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
